@@ -4,7 +4,7 @@ import hashlib
 
 from fastapi import Request
 
-from app.utils.jwt import create_access_token
+from app.utils.auth import create_access_token
 from app.utils.oauth_client import oauth
 
 
