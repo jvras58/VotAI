@@ -27,6 +27,11 @@ class Settings(BaseSettings):
     # Secret key for session management (used in SessionMiddleware)
     SESSION_SECRET_KEY: str = "change-me-in-production"
 
+    # JWT settings
+    JWT_SECRET_KEY: str = "change-me-jwt-secret"
+    JWT_ALGORITHM: str = "HS256"
+    JWT_ACCESS_TOKEN_EXPIRE_SECONDS: int = 900
+
 
 @lru_cache
 def get_settings() -> Settings:

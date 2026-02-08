@@ -26,3 +26,5 @@ class AuthCallbackResponse(BaseModel):
     email: str
     name: str | None = None
     picture: str | None = None
+    access_token: str
+    token_type: str = "bearer"
