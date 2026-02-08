@@ -1,4 +1,4 @@
-# EleitorAI - POC
+# POC
 
 **POC para pesquisas de intenção de voto com autenticação OAuth (Google), JWT, proteção anti-duplicidade via Redis e arquitetura modular FastAPI.**
 
